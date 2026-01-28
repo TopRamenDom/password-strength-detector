@@ -1,0 +1,2 @@
+[console_scripts]
+pw-strength = password_strength.cli:main

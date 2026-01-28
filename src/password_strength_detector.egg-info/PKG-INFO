@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: password-strength-detector
+Version: 0.1.0
+Summary: Password strength detector with entropy scoring and pattern checks.
+Author: Kevin
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Password Strength Detector (Python)
+
+Local-only password strength analyzer that scores passwords using:
+- Length and character variety
+- Entropy estimates
+- Weak pattern detection (sequences, repeats, keyboard patterns)
+- Common password detection
+
+## Install
+```bash
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+pip install -e .
