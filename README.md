@@ -6,9 +6,11 @@ Local-only password strength analyzer that scores passwords using:
 - Weak pattern detection (sequences, repeats, keyboard patterns)
 - Common password detection
 
-## Install
-```bash
+## Install (Windows PowerShell)
+
+```powershell
 python -m venv .venv
-# Windows:
-.venv\Scripts\activate
+.\.venv\Scripts\Activate.ps1
 pip install -e .
+pw-strength
+
